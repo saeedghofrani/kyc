@@ -1,0 +1,8 @@
+export enum SchemaEntityEnum {
+ AUTH="AUTH",
+ BLOCKCHAIN="BLOCKCHAIN",
+ LOCATION="LOCATION",
+ PUBLIC="PUBLIC",
+ CURRENCY = "CURRENCY", 
+
+}

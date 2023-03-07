@@ -1,0 +1,35 @@
+{
+  "collection": "@nestjs/schematics",
+  "sourceRoot": "src" ,
+  "compilerOptions": {
+    "plugins": [  {
+      "name": "@nestjs/swagger",
+      "options": {
+        "classValidatorShim": false,
+        "introspectComments": true
+      }
+    }],
+    "options": {
+      "classValidatorShim": false,
+      "dtoFileNameSuffix": [
+        ".entity.ts",
+        ".dto.ts",
+        ".model.ts",
+        ".class.ts",
+        ".interface.ts" ,
+        ".interceptor.ts",
+        ".crud.ts" ,
+        ".result.ts" ,
+        ".enum.ts"
+      ],
+      "controllerFileNameSuffix": [
+        ".controller.ts"
+      ]
+    },
+    "assets": [
+      "modules/auth/modules/auth/email/template/**/*" ,
+      "crypto/**/*" ,
+      "utility/translate/tools/i18n/**/*"] ,
+    "watchAssets": true
+  }
+}

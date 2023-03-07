@@ -1,0 +1,106 @@
+{
+  "role": {
+    "ROLe_NOT_EXISTS": "File does not exist" ,
+    "DEFAULT_ROLE_ALREADY_EXISTS": "Default role already exists" ,
+    "SLUG_ROLE_ALREADY_EXISTS" : "Slug Role Already Exists"
+  } ,
+  "public" : {
+    "PUBLIC_ERROR" : "This action Has A Public Error" ,
+    "DATA_NOT_EXISTS" : "Data not exists" ,
+    "COLUMN_NOT_EXISTS" : "Column not exists" ,
+    "IP_ADDRESS_ERROR" : "Ip address not resolved",
+    "NOT_EMPTY" : "This field should not be empty",
+    "WEAK_PASSWORD" : "Password too weak",
+    "TOO_MANY_REQUEST" : "Too many request",
+    "USER_NOT_EXISTS" : "User not exists",
+    "UUID_NOT_MATCH":"uuid not match"
+  } ,
+  "wageCrypto" : {
+    "ID_SMART_CONTRACT_AND_ID_SPEED_IS_REQUIRED" : "id smart contact and id speed is required"
+  } ,
+  "currency" : {
+    "CURRENCY_ALREADY_EXISTS": "CURRENCY ALREADY EXISTS"
+  },
+  "sms" : {
+		"SMS_PROVIDER_CAN_NOT_RUN" : "Sms Provider can not run" ,
+		"SMS_PROVIDER_HAS_ERROR" : "Sms Provider Has Error" ,
+		"SMS_CODE_NOT_AVAILABLE" : "Sms Code Not Available"
+	} ,
+	"phone" : {
+		"PHONE_NUMBER_DENY_COUNTRY" : "Phone number not in country" ,
+		"PHONE_NUMBER_IS_NOT_EXISTS" : "Phone number not exists",
+		"PHONE_NUMBER_ALREADY_EXISTS" : "Phone number already exists"
+	},
+  "level": {
+    "LEVEL_NOT_EXISTS": "Level not exists",
+    "LEVEL_HAS_DEFAULT": "Level has default",
+    "LEVEL_ALREADY_EXISTS" : "Level already exists"
+  },
+  "email": {
+    "EMAIL_DOES_NOT_EXISTS": "Email Does Not Exist",
+    "EMAIL_ALREADY_EXISTS": "Email already exists",
+    "EMAIL_CODE_NOT_AVAILABLE" : "Email code not available",
+    "EMAIL_OR_PASSWORD_IS_INVALID" : "Email or password is invalid",
+    "EMAIL_PASSWORD_AND_CONFIRMPASSWORD_DOES_NOT_MATCH" : "Password And Confirm Password Does Not Match",
+    "INVALID_EMAIL" : "Email Is Invalid"
+  },
+  "ip": {
+    "IP_ADDRESS_ERROR": "Ip Template Address Error",
+    "IP_LOCATION_NOT_FOUND": "Ip location not found"
+  },
+  "arch": {
+    "ARCH_NOT_EXISTS": "Arch Does Not Exist",
+    "ARCH_ALREADY_EXISTS": "Arch already exists"
+
+  },
+  "chain": {
+    "CHAIN_DOES_NOT_EXIST": "Chain Does Not Exist",
+    "TRANSACTION_FAILED": "Transaction failed"
+  },
+  "country": {
+    "COUNTRY_NOT_EXISTS":"Country Not Exist" ,
+    "COUNTRY_NAME_ALREADY_EXISTS":"Country Name Already Exists" ,
+    "COUNTRY_ISO2_ALREADY_EXISTS":"Country Iso2 Already Exists" ,
+    "COUNTRY_ISO3_ALREADY_EXISTS":"Country Iso3 Already Exists" ,
+    "COUNTRY_RELATION_CURRENCY_NOT_EXISTS" : "Country Relation Currency Not Exists",
+    "COUNTRY_USER_DOES_NOT_EXIST" : "Country User Does Not Exists"
+  },
+  "continent": {
+    "CONTINENT_ALREADY_EXISTS": "Continent name already exists"
+  },
+  "bank": {
+    "BANK_ALREADY_EXISTS": "Bank already exists"
+  },
+  "crud_frontend" : {
+    "ROUTE_ALREADY_EXISTS": "Route already exists"
+  },
+  "crud_backend" : {
+    "ROUTE_ALREADY_EXISTS": "Route already exists"
+  },
+  "menu" : {
+    "MENU_ALREADY_EXISTS": "Menu already exists"
+  },
+  "file" : {
+    "file_DOES_NOT_EXIST": "File does not exist"
+  },
+  "crypto_version" : {
+    "VERSION_CRYPTO_ALREADY_EXISTS": "Version crypto already exists"
+  },
+  "crypto" : {
+    "CRYPTO_NOT_EXISTS": "crypto does not exist"
+  },
+  "collection": {
+    "COLLECTION_ALREADY_EXISTS": "Collection already exists",
+    "COLLECTION_HAS_A_DEFAULT": "System has default collection"
+  },
+  "category": {
+    "CATEGORY_ALREADY_EXISTS": "Category already exists",
+    "DEFAULT_CATEGORY_ALREADY_SET": "Default category already set"
+  },
+  "nft": {
+    "NFT_ALREADY_EXISTS": "Nft already exists",
+    "ARCH_721_SHOULD_NOT_BE_MINTED_IN_1155_COLLECTION": "Arch 721 should not be minted in 1155 collection",
+    "ARCH_1155_SHOULD_NOT_BE_MINTED_IN_721_COLLECTION": "Arch 1155 should not be minted in 721 collection",
+    "ADDRESS_SHOULD_NOT_BE_EMPTY": "Address should not be empty"
+  }
+}
